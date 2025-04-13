@@ -1,0 +1,19 @@
+[project]
+name = "hangman"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Arie Knoester", email = "arikstr@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.8",
+]
+
+[project.scripts]
+hangman = "hangman:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
